@@ -16,9 +16,17 @@ body {
 p {
   font-size: 1.6rem;
 }
-
 h1 {
   font-size: 6rem;
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 5rem;
+  }
 }
 
 .app {
