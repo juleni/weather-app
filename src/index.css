@@ -50,6 +50,9 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
 }
+.location {
+  font-size: 2rem;
+}
 
 .app .top {
   width: 100%;
@@ -71,6 +74,29 @@ h1 {
   padding: 1rem;
   border-radius: 12px;
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.app .search {
+  text-align: center;
+  padding: 1rem;
+}
+
+.app input {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: #f8f8f8;
+}
+
+::placeholder {
+  color: #f8f8f8;
+}
+
+.app .message {
+  text-align: center;
+  color: rgba(34, 27, 66, 0.7);
 }
 
 .bold {
